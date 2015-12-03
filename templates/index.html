@@ -1,0 +1,277 @@
+<!--
+  Name: Con - Admin Dashboard with Material Design
+  Version: 2.3.2
+  Author: nK
+  Website: http://nkdev.info
+  Support: http://nk.ticksy.com
+  Purchase: http://themeforest.net/item/con-material-admin-dashboard-template/10621512?ref=_nK
+  License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+  Copyright 2015.
+-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="lt-ie7"> <![endif]-->
+<!--[if IE 7]>     <html class="lt-ie8"> <![endif]-->
+<!--[if IE 8]>     <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html ng-app="app">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>App</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+  <link rel="icon" type="image/png" href="/static/assets/_con/images/icon.png">
+  
+  <link rel="stylesheet" type="text/css" href="/static/main.css" />
+  
+  <!-- nanoScroller -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/nanoScroller/nanoscroller.css" />
+
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Material Design Icons -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/material-design-icons/css/material-design-icons.min.css" />
+
+  <!-- IonIcons -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/ionicons/css/ionicons.min.css" />
+
+  <!-- WeatherIcons -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/weatherIcons/css/weather-icons.min.css" />
+
+  <!-- Google Prettify -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/google-code-prettify/prettify.css" />
+  
+  <link rel="stylesheet" type="text/css" href="/static/assets/select2/css/select2.min.css" />
+  
+  <!-- Main -->
+  <link rel="stylesheet" type="text/css" href="/static/assets/_con/css/_con.min.css" />
+  
+  
+
+  <!--[if lt IE 9]>
+    <script src="/static/assets/html5shiv/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body ng-controller="AppController as AppCtrl" class="yay-hide"> 
+
+
+  <!--
+  Top Navbar
+    Options:
+      .navbar-dark - dark color scheme
+      .navbar-static - static navbar
+      .navbar-under - under sidebar
+-->
+  <nav class="navbar-top">
+    <div class="nav-wrapper">
+
+      <!-- Sidebar toggle -->
+      <a href="#" class="yay-toggle">
+        <div class="burg1"></div>
+        <div class="burg2"></div>
+        <div class="burg3"></div>
+      </a>
+      <!-- Sidebar toggle -->
+
+      <!-- Logo -->
+      <a href="#!" class="brand-logo">
+        Permutation
+      </a>
+      <!-- /Logo -->
+      
+    </div>
+  </nav>
+  <!-- /Top Navbar -->
+
+
+  <!--
+  Yay Sidebar
+  Options [you can use all of theme classnames]:
+    .yay-hide-to-small         - no hide menu, just set it small with big icons
+    .yay-static                - stop using fixed sidebar (will scroll with content)
+    .yay-gestures              - to show and hide menu using gesture swipes
+    .yay-light                 - light color scheme
+    .yay-hide-on-content-click - hide menu on content click
+
+  Effects [you can use one of these classnames]:
+    .yay-overlay  - overlay content
+    .yay-push     - push content to right
+    .yay-shrink   - shrink content width
+-->
+  <aside class="yaybar yay-gestures yay-overlay yay-static yay-light yay-hide-on-content-click yay-overlap-content">
+
+    <div class="top">
+      <div>
+        <!-- Sidebar toggle -->
+        <a href="#" class="yay-toggle">
+          <div class="burg1"></div>
+          <div class="burg2"></div>
+          <div class="burg3"></div>
+        </a>
+        <!-- Sidebar toggle -->
+
+        <!-- Logo -->
+        <a href="#!" class="brand-logo">
+          <img src="/static/assets/_con/images/logo-white.png" alt="Con">
+        </a>
+        <!-- /Logo -->
+      </div>
+    </div>
+
+
+    <div class="nano">
+      <div class="nano-content">
+ 
+        <ul>
+
+          <li class="label">Type of exercise</li>
+          <li>  
+            <a class="waves-effect menu-item"  href="#/explore"><i class="mdi-action-settings-input-component"></i> Permutation </a>
+          </li>  
+          <li>  
+            <a class="waves-effect menu-item"  href="#/explore"><i class="mdi-action-autorenew"></i> Combination </a>
+          </li>
+          <li>  
+            <a class="waves-effect menu-item"  href="#/explore"><i class="mdi-action-help"></i> Random </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </aside>
+  <!-- /Yay Sidebar -->
+
+
+  <!-- Main Content -->
+  <section class="content-wrap">
+    
+  
+    <div>
+        <!-- Breadcrumb -->
+        <div class="page-title">
+    
+          <div class="row">
+            <div class="col s12 m12 l12">  
+              <div class="input-field">
+                <input id="input_text" type="number" class="validate">
+                <label for="input_text">Number of exercises</label>
+              </div>
+            </div>
+            <div class="col s12 m12 l12 align-center">  
+                 <a class="btn">Start</a>
+            </div>  
+          </div>
+        </div>
+        
+        <div class="col s12 m12 l12">
+          <div class="ex-num">
+            1
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="title">
+            <h5>Problem statement</h5>
+            <a class="minimize" href="#">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+          <div class="content">bla ba bla</div>
+        </div>
+        
+        <div class="card">
+          <div class="title">
+            <h5>Feedback</h5>
+            <a class="minimize" href="#">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+          <div class="content">bla ba bla</div>
+        </div>
+        
+        <div class="card">
+          <div class="title">
+            <h5>Answer</h5>
+            <a class="minimize" href="#">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+          <div class="content">
+            <div class="input-field">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+            </div>  
+            <div class="col s12 m12 l12 align-center">  
+                 <a class="btn">Answer</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="row">
+    </div>
+    
+  </section>
+  <!-- /Main Content -->
+  
+  <!-- angular -->
+  <script type="text/javascript" src="https://code.angularjs.org/1.4.0/angular.min.js"></script> 
+  
+  <script type="text/javascript" src="https://code.angularjs.org/1.4.0/angular-cookies.min.js"></script>
+  
+  <!-- main apps --> 
+  <script type="text/javascript" src="/static/main.js"></script>
+  
+  <!-- profile apps -->
+  <!--<script type="text/javascript" src="apps/profile/factory.js"></script>-->
+  <!--<script type="text/javascript" src="apps/profile/app.js"></script>-->
+  
+  <!-- project apps -->
+  <!--<script type="text/javascript" src="apps/explore/factory.js"></script>-->
+  <!--<script type="text/javascript" src="apps/explore/app.js"></script>-->
+  
+  <!-- jQuery -->
+  <script type="text/javascript" src="/static/assets/jquery/jquery.min.js"></script>
+
+  <!-- jQuery RAF (improved animation performance) -->
+  <script type="text/javascript" src="/static/assets/jqueryRAF/jquery.requestAnimationFrame.min.js"></script>
+
+  <!-- nanoScroller -->
+  <script type="text/javascript" src="/static/assets/nanoScroller/jquery.nanoscroller.min.js"></script>
+
+  <!-- Materialize -->
+  <script type="text/javascript" src="/static/assets/materialize/js/materialize.min.js"></script>
+
+
+  <!-- Flot -->
+  <script type="text/javascript" src="/static/assets/flot/jquery.flot.min.js"></script>
+  <script type="text/javascript" src="/static/assets/flot/jquery.flot.time.min.js"></script>
+  <script type="text/javascript" src="/static/assets/flot/jquery.flot.pie.min.js"></script>
+  <script type="text/javascript" src="/static/assets/flot/jquery.flot.tooltip.min.js"></script>
+  <script type="text/javascript" src="/static/assets/flot/jquery.flot.categories.min.js"></script>
+  <!-- Sortable -->
+  <script type="text/javascript" src="/static/assets/sortable/Sortable.min.js"></script>
+
+  <!-- Main -->
+  <script type="text/javascript" src="/static/assets/_con/js/_con.min.js"></script>
+
+
+  <!-- Google Prettify -->
+  <script type="text/javascript" src="/static/assets/google-code-prettify/prettify.js"></script>
+  
+  <!-- parsley -->
+  <script type="text/javascript" src="/static/assets/parsley/parsley.min.js"></script>
+  
+  <script type="text/javascript" src="/static/assets/select2/js/select2.full.min.js"></script>
+
+</body>
+
+</html>

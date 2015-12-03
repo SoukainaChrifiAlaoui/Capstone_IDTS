@@ -1,0 +1,262 @@
+<FILESTART>
+
+<COURSE=DISCMTH><CHAPTER=PERMCOMB>
+
+<NUMOFPROBS=14>
+
+
+
+[START]
+
+Assume that there are 24 desks and 6 students, what is the number of ways in which the desks can seat the students supposing that no more than 4 students can be seated around a desk [given that a student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[24, 6]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+If each desk can seat only 3 students, in how many ways could the students be seated around the desks, given there are 45 desks and 14 students [given that a student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[45, 14]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Imagine that a single student can purchase a maximum number of 5 textbooks, in how many ways can the students purchase the textbooks, assuming that there are 9 textbooks and 38 students [given that a single textbook cannot be purchased by more than one students]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[38, 9]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Say there are 9 students and 29 desks, in how many ways can the students be seated around the desks supposing that only 2 students can be seated around a desk [given that a student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[29, 9]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Assuming that there are 21 desks and 10 students, find the number of ways in which the desks can seat the students given that a number of 5 students can be seated around a desk [given that a student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[21, 10]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+If every student can select up to 3 courses, find the number of ways in which the students can select the courses, knowing there are 9 courses and 24 students [given that a single course cannot be selected by more than one students]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[24, 9]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Knowing there are 42 desks and 10 students, calculate the number of ways in which the desks can seat the students if every desk can seat only up to 3 students [given that a student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[42, 10]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Suppose there are 25 students and 6 courses, calculate the number of ways in which the courses can be selected by the students if each single student can select up to 5 courses [given that a single course cannot be selected by more than one students]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[25, 6]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Students textbooks given that repetition is not allowed, find the number of combinations of the possible three digit numbers that can be formed from the digits 1,2,3,4,5,6, and 7 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[21, 6]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Say that a number of 2 students can be seated around a desk, calculate the number of ways in which the students can be seated around the desks, assuming that there are 11 students and 49 desks [given that a single student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[49, 11]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Assuming there are 11 students and 28 desks, in how many ways could the students be seated around the desks supposing that a maximum of 2 students can be seated around a desk [given that a student cannot be seated around more than one desks]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[28, 11]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Find the number of ways in which the students can purchase the textbooks, knowing that there are 11 textbooks and 36 students, and if every single student can purchase a maximum number of 2 textbooks [given that a single textbook cannot be purchased by more than one students]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[36, 11]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+What is the number of ways in which the classrooms can hold the desks, supposing that there are 12 desks and 22 classrooms, and supposing that only 4 desks can be distributed across a single classroom [given that a desk cannot be distributed across more than one classrooms]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+VARS=['n', 'k']
+
+VALS=[22, 12]
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Given that a student can select a maximum number of 1 courses, calculate the number of ways in which the students can select the courses, given there are 29 students and 11 courses [given that a single course cannot be selected by more than one students]<nor>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[29, 11]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+
+
+
+<FILEEND>

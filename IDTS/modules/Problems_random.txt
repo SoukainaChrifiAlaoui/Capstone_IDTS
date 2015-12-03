@@ -1,0 +1,279 @@
+<FILESTART>
+<COURSE=DISCMTH><CHAPTER=PERMCOMB>
+<NUMOFPROBS=15>
+
+
+
+
+
+[START]
+
+If every single classroom can hold up to 4 desks, what is the number of ways in which the desks can be distributed across the classrooms, knowing that there are 5 classrooms and 9 desks [given that a single desk can be distributed across a maximum of #y classrooms]<lre>.? 
+
+PROBID = 1
+RULES = NONE
+
+NUMOFVARS = 5
+
+VARS = ['n', 'S', 'A', 'L', 'T']
+
+VALS = ['5', 1, 2, 1, 1]
+
+FORMULA = (n!)/((S)(A)(L)(T))
+
+[END]
+
+[START]
+
+In how many ways can the students select the courses, assuming that there are 10 students and 6 courses, and if every single student can select a maximum of 8 courses [given that a course can be selected by no more than #y students]<lre>.? 
+
+PROBID = 1
+
+RULES = NONE
+
+NUMOFVARS = 9
+
+VARS = ['n', 'U', 'O', 'A', 'I', 'R', 'D', 'T', 'M']
+
+VALS = ['10', 2, 1, 1, 2, 1, 1, 1, 1]
+
+FORMULA = (n!)/((U)(O)(A)(I)(R)(D)(T)(M))
+
+[END]
+
+[START]
+
+Desks students how many different 5-letter arrangements are there of the letters in the word 'word'? 
+
+PROBID=3
+
+RULES=k<n
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[27, 6]
+
+FORMULA=(n!)/((n-k)!)
+
+[END]
+
+[START]
+
+If every classroom can hold only up to 2 desks, find the number of ways in which the desks can be distributed across the classrooms, assuming there are 22 classrooms and 15 desks [given that a single desk can be distributed across a maximum number of #y classrooms]<lre>.? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[22, 15]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Supposing there are 8 students and 15 textbooks, find the number of ways in which the textbooks can be purchased by the students supposing that a student can purchase a maximum of 6 textbooks [given that a textbook can be purchased by a maximum number of #y students]<lre>.? 
+
+PROBID=1
+
+RULES=NONE
+
+NUMOFVARS=7
+
+VARS=['n', 'H', 'A', 'N', 'Y', 'W', 'K']
+
+VALS=['8', 1, 3, 1, 1, 1, 1]
+
+FORMULA=(n!)/((H)(A)(N)(Y)(W)(K))
+
+[END]
+
+[START]
+If every single student can select only up to 4 courses, find the number of ways in which the courses can be selected by the students, assuming there are 7 courses and 19 students [given that a course cannot be selected by more than one students]<nor>.? 
+
+PROBID=5
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[19, 7]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Suppose that there are 12 textbooks and 35 students, what is the number of ways in which the textbooks can be purchased by the students supposing that only up to 5 textbooks can be purchased by a student [given that a single textbook can be purchased by all students]<rep>.? 
+
+PROBID=4
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[35, 12]
+
+FORMULA=((k+n-1)!)/((k!)*((n-1)!))
+
+[END]
+
+[START]
+
+Calculate the number of ways in which the classrooms can hold the desks, knowing that there are 12 desks and 49 classrooms, and supposing that only 1 desks can be distributed across a classroom [given that a desk can be distributed across all classrooms]<rep>.? 
+
+PROBID=2
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[49, 12]
+
+FORMULA=n^k
+
+[END]
+
+[START]
+
+Say that a number of 5 students can be seated around a desk, calculate the number of ways in which the desks can seat the students, given there are 11 students and 5 desks [given that a single student can be seated around a number of #y desks]<lre>.? 
+
+PROBID=1
+
+RULES=NONE
+
+NUMOFVARS=6
+
+VARS=['n', 'I', 'O', 'L', 'N', 'S']
+
+VALS=['5', 1, 1, 1, 1, 1]
+
+FORMULA=(n!)/((I)(O)(L)(N)(S))
+
+[END]
+
+[START]
+
+Knowing there are 10 students and 9 courses, what is the number of ways in which the courses can be selected by the students knowing that only 8 courses can be selected by a student [given that a course cannot be selected by more than one students]<nor>.? 
+
+PROBID=1
+
+RULES=NONE
+
+NUMOFVARS=9
+
+VARS=['n', 'U', 'O', 'A', 'I', 'R', 'D', 'T', 'M']
+
+VALS=['10', 2, 1, 1, 2, 1, 1, 1, 1]
+
+FORMULA=(n!)/((U)(O)(A)(I)(R)(D)(T)(M))
+
+[END]
+
+[START]
+
+Supposing that a student can select a maximum of 6 courses, find the number of ways in which the courses can be selected by the students, supposing there are 6 students and 8 courses [given that a single course can be selected by no more than #y students]<lre>.? 
+
+PROBID=1
+
+RULES=NONE
+
+NUMOFVARS=7
+
+VARS=['n', 'I', 'R', 'A', 'N', 'F', 'E']
+
+VALS=['6', 1, 1, 1, 1, 1, 1]
+
+FORMULA=(n!)/((I)(R)(A)(N)(F)(E))
+
+[END]
+
+[START]
+
+Knowing that there are 13 courses and 38 students, in how many ways could the students select the courses knowing that no more than 1 courses can be selected by a single student [given that a single course can be selected by all students]<rep>.? 
+
+PROBID=2
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[38, 13]
+
+FORMULA=n^k
+
+[END]
+
+[START]
+
+Students courses if a three digit number is formed from the digits 1,2,3,4,5,6, and 7, tell how many three digit numbers are possible? 
+
+PROBID=5
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[25, 11]
+
+FORMULA=(n!)/((k!)*((n-k)!))
+
+[END]
+
+[START]
+
+Supposing there are 31 classrooms and 10 desks, in how many ways could the classrooms hold the desks if every classroom can hold no more than 3 desks [given that a desk can be distributed across only up to #y classrooms]<lre>.? 
+
+PROBID=4
+
+RULES=NONE
+
+NUMOFVARS=2
+
+VARS=['n', 'k']
+
+VALS=[31, 10]
+
+FORMULA=((k+n-1)!)/((k!)*((n-1)!))
+
+[END]
+
+[START]
+
+Students courses how many different 5-letter arrangements are there of the letters in the word 'word'? 
+
+PROBID=1
+
+RULES=NONE
+
+NUMOFVARS=5
+
+VARS=['n', 'S', 'A', 'L', 'T']
+
+VALS=['5', 1, 2, 1, 1]
+
+FORMULA=(n!)/((S)(A)(L)(T))
+
+[END]
+
+
+
+
+<FILEEND>

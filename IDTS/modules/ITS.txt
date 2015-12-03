@@ -1,0 +1,35 @@
+<FILESTART>
+<COURSE=DISCMTH><CHAPTER=PERMCOMB>
+<NUMOFPROBS=3>
+
+
+[START]
+In how many ways can 10 students sit around a table if the table only holds up to 6 students, [assuming that the students don't mind where they sit]<com>, and [each student can only sit in one place at a time]<nor>?
+PROBID = 5
+FORMULA = (n!)/((k!)*((n-k)!))
+RULE = NONE
+NUMOFVARS = 2
+VARS = [n, k]
+VALS = [10, 6]
+[END]
+[START]
+In how many ways can 10 students sit around a table if the table only holds up to 6 students, [assuming that the students care about where they sit]<per>, and [each student can only sit in one place at a time]<nor>?
+PROBID = 3
+FORMULA = (n!)/((n-k)!)
+RULE = n>k
+NUMOFVARS = 2
+VARS = [n, k]
+VALS = [10, 6]
+[END]
+[START]
+How many different 5-letter [arrangements]<per> are there of the [letters in the word MISSISSIPPI]<lre>?
+PROBID = 1
+FORMULA = (n!)/((n1)(n2)(n3)(n4))
+RULE = NONE
+NUMOFVARS = 5
+VARS = [n, n1, n2, n3, n4]
+VALS = [10, 1, 4, 4, 2]
+[END]
+
+
+<FILEEND>
